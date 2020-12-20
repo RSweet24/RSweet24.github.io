@@ -1,36 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="stylesheet" href="./css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Reuben Sweet</title>
-</head>
+  </head>
 
-<body>
-    <div class="container">
-        <nav class="nav fixed-top">
-            <img src="./img/Logo.png" alt="Logo image" style="width: 50px; height: 50px;">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#about">About</a>
-            <a class="nav-link" href="#projects">Projects</a>
-            <a class="nav-link" href="#contact">Contact</a>
-        </nav>
-        <div class="img-container">
-            <img src="./img/Development.jpg">
-            <h1 class="img-text">
-                Front-End Web Developer<br>
-                with a passion for learning
-            </h1>
-        </div>
-        <div class="container">
-            <div class="aboutContainer">
-                <section id="about" class="about">
-                    <h2>About Me</h2>
-                    <pre>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar fixed-top">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/Logo.png"
+            alt="Logo image"
+            style="width: 50px; height: 50px"
+          />
+        </a>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+      <div class="img-container">
+        <img src="./img/Development.jpg" />
+        <h1 class="img-text">
+          Front-End Web Developer<br />
+          with a passion for learning
+        </h1>
+      </div>
+      <div class="container-fluid">
+        <h2>About Me</h2>
+        <section id="about" class="about">
+          <pre>
             I am a self-taught Front-End Developer with a good understanding of HTML, CSS, JavaScript.
 
             I am highly motivated, self-driven and hard working. I hold myself to high expectations and will work
@@ -39,64 +47,99 @@
             I am both team oriented but also able to work independently.
 
             Below are a list of my current technical skills:
-        </pre>
-                </section>
+        </pre
+          >
+        </section>
+      </div>
+      <div class="container-fluid">
+        <h2>Projects:</h2>
+        <section id="projects" class="projects">
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./img/LadyBuggz.png"
+              alt="Lady Buggz Essentials"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Lady Buggz Essentials</h5>
+              <a
+                href="https://ladybuggzessentialproducts.com/"
+                class="btn btn-primary"
+                >Site Link</a
+              >
             </div>
-        </div>
-        <div class="container">
-            <div class="projectContainer">
-                <section id="projects" class="projects">
-                    <h2>Projects:</h2>
-                    <div class="projectContainer">
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/LadyBuggz.png" alt="Lady Buggz Essentials">
-                            <div class="card-body">
-                                <h5 class="card-title">Lady Buggz Essentials</h5>
-                                <a href="https://ladybuggzessentialproducts.com/" class="btn btn-primary">Site Link</a>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/LadyBuggz.png" alt="Magnolia Cleaning Services">
-                            <div class="card-body">
-                                <h5 class="card-title">Magnolia Cleaning Services</h5>
-                                <a href="https://ladybuggzessentialproducts.com/" class="btn btn-primary">Site Link</a>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="./img/LadyBuggz.png" alt="Maze Game">
-                            <div class="card-body">
-                                <h5 class="card-title">The Maze Game</h5>
-                                <a href="https://ladybuggzessentialproducts.com/" class="btn btn-primary">Site Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./img/LadyBuggz.png"
+              alt="Magnolia Cleaning Services"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Magnolia Cleaning Services</h5>
+              <a
+                href="https://ladybuggzessentialproducts.com/"
+                class="btn btn-primary"
+                >Site Link</a
+              >
             </div>
-        </div>
-        <div class="container">
-            <div class="contactContainer">
-                <section id="contact" class="contact">
-                    <h2>Contact Me</h2>
-                    <form>
-                        <div class="form-group">
-                            <label for="nameInput">Name</label>
-                            <input type="text" class="form-control" id="nameInput" aria-describedby="nameInput"
-                                placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="emailInput">Email Address</label>
-                            <input type="email" class="form-control" id="emailInput" aria-describedby="emailInput"
-                                placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="messageInput">Message</label>
-                            <textarea class="form-control" id="messageInput" rows="7"></textarea>
-                        </div>
-                    </form>
-                </section>
+          </div>
+          <div class="card" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="./img/LadyBuggz.png"
+              alt="Maze Game"
+            />
+            <div class="card-body">
+              <h5 class="card-title">The Maze Game</h5>
+              <a
+                href="https://ladybuggzessentialproducts.com/"
+                class="btn btn-primary"
+                >Site Link</a
+              >
             </div>
+          </div>
+        </section>
+      </div>
+      <div class="container-fluid">
+        <h2>Contact Me</h2>
+        <form id="contact" class="contact">
+          <div class="form-row">
+            <div class="form-group col-md-3">
+              <label for="nameInput">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nameInput"
+                aria-describedby="nameInput"
+                placeholder="Name"
+              />
+            </div>
+          </div>
+          <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="emailInput">Email Address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="emailInput"
+              aria-describedby="emailInput"
+              placeholder="Email"
+            />
+          </div>
         </div>
+        <div class="form-row">
+          <div class="form-group col-md-3">
+            <label for="messageInput">Message</label>
+            <textarea
+              class="form-control"
+              id="messageInput"
+              rows="7"
+            ></textarea>
+          </div>
+        </div>
+        </form>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

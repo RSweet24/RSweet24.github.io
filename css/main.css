@@ -1,42 +1,52 @@
 body {
-    text-align: center;
+  text-align: center;
+  overflow-x: hidden;
 }
-.container{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 0 !important;
-  padding: 0 !important;
+
+.navbar {
+  justify-content: flex-start !important;
+  background-color: black;
 }
+
 .img-container {
-    position: relative;
-    text-align: center;
-    color: white;
-    opacity: .8;
-  }
-
-  img {
-    width: 100vw;
-  }
-
-  .img-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-nav {
-    text-align: right;
-    background-color: black;
-}
-.projectContainer {
-    display: flex;
-    justify-content: space-evenly;
+  position: relative;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
 }
 
-.contact {
-  width: 50%;
-  
+img {
+  width: 100vw;
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.projects {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+pre {
+  overflow-x: hidden;
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+#messageInput {
+  margin-bottom: 100px;
 }
