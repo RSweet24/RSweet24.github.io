@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.img-container {
+    position: relative;
+    text-align: center;
+    color: white;
+    opacity: .8;
+  }
+
+  img {
+    width: 100vw;
+  }
+
+  .img-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+nav {
+    text-align: right;
+    background-color: black;
+}
+.projectContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+  width: 50%;
+  
+}
