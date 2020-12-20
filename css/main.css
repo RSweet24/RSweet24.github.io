@@ -3,9 +3,17 @@ body {
   overflow-x: hidden;
 }
 
+.container-fluid {
+  padding: 0 !important;
+}
+
 .navbar {
   justify-content: flex-start !important;
   background-color: black;
+}
+
+.nav-link {
+  color: #a02605;
 }
 
 .img-container {
@@ -16,7 +24,7 @@ body {
 }
 
 img {
-  width: 100vw;
+  width: 100%;
 }
 
 .img-text {
